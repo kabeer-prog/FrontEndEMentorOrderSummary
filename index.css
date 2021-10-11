@@ -1,0 +1,107 @@
+
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Pale blue: hsl(225, 100%, 94%)
+- Bright blue: hsl(245, 75%, 52%)
+
+### Neutral
+
+- Very pale blue: hsl(225, 100%, 98%)
+- Desaturated blue: hsl(224, 23%, 55%)
+- Dark blue: hsl(223, 47%, 23%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 16px
+
+### Font
+
+
+- Family: [Red Hat Display](https://fonts.google.com/specimen/Red+Hat+Display)
+- Weights: 500, 700, 900
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+ background:url(https://www.digitshack.com/codepen/mentor1/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color:hsl(225, 100%, 98%);
+  font-family: 'Red Hat Display',sans-serif;
+   
+}
+.container{
+  width: 450px;
+  text-align: center;
+  margin: 0 auto;
+ overflow: hidden;
+  margin-top: 100px;
+  
+   border-radius: 20px;
+ 
+    
+    
+  
+}
+.content{
+  margin-top:-10px;
+  background-color: #fff;
+  height: 350px;
+  padding: 5%;
+  
+}
+.text p{
+  margin-bottom:40px;
+  color:gray;
+  
+  
+}
+.box{
+  display: flex;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 20px;
+  justify-content: flex-start; 
+  padding:20px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.plan{
+  display:flex;
+  
+}
+.plan div{
+  margin-left: 20px;
+}
+.plan .change{
+  text-decoration: none;
+  margin-left: 150px;
+}
+.proceed{
+  background-color:blue;
+  padding:20px;
+  align-items: center;
+  border-radius: 20px;
+  color: #fff;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+.cancel{
+  display:block;
+  text-align: center;
+  text-decoration: none;
+}
